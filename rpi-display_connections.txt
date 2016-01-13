@@ -1,0 +1,13 @@
+Display  Raspberry Pi   Info
+----------------------------
+GND      GND            Ground
+5V       5V             5V Power Supply
+LCD-LED  GPIO18         Display Backlight, can be set to GPIO12 with Jumper BL
+LCD-RST  GPIO23         Display Reset
+LCD-DC   GPIO24         Display Command/Data Select, Jumper IO24-RS
+LCD-CS   GPIO8  (CE0)   Display Chip Select
+ADS-CS   GPIO7  (CE1)   Touchcontroller Chip Select
+ADS-IRQ  GPIO25         Touchcontroller Interrupt Output
+MISO     GPIO9  (MISO)  SPI Master-In Slave-Out
+MOSI     GPIO10 (MOSI)  SPI Master-Out Slave-In
+SCK      GPIO11 (SCK)   SPI Clock
