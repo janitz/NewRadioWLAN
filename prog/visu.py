@@ -66,7 +66,7 @@ class PagesThread(threading.Thread):
 		self.radioVolumeWait = 0
 		
 		self.radioWlanPics = {}
-		for x in range(0, 5):
+		for x in range(0, 6):
 			picName = "skin/wlan/wlan" + str(x) + ".png"
 			self.radioWlanPics[x] = pygame.image.load(picName)
 
