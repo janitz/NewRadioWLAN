@@ -20,6 +20,7 @@ class PlayerThread(threading.Thread):
 	def run(self):
 		while True:
 			try:
+				#better: mpc -f "[NAME:%name%]\n[TITLE:%title%]"
 				info = subprocess.check_output('mpc', timeout=0.5).decode('utf-8')	
 			except:
 				info = ""
